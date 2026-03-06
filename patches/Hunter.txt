@@ -1,0 +1,13 @@
+Game: Hunter-Win64-Shipping
+
+Patch: Hideout CTD 1
+Address: 0x358391E
+Bytes: 90 90 90 90 90 90
+
+Patch: Hideout CTD 2
+Address: 0x5783F60
+Bytes: EB
+
+Patch: Null NPC Bark
+Address: 0x54BCFE0
+Bytes: EB 1A 90

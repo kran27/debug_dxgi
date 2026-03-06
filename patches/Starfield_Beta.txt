@@ -1,0 +1,23 @@
+Game: StarfieldBeta
+
+Patch: XGameRuntime Initialization
+Address: 0x5B94460
+Bytes: E9 E8 00 00 00 90
+
+Patch: credit menu function
+Address: 0x8C0CDCF
+# "F %lu\0"
+Bytes: 46 20 25 6C 75 00
+
+Patch: fuel menu function
+Address: 0x8C0CE57
+# "558E %lu\0"
+Bytes: 35 35 38 45 20 25 6C 75 00
+
+Patch: ImGui Assert 1
+Address: 0x49EE8D9
+Bytes: EB
+
+Patch: ImGui Assert 2
+Address: 0x49EE8E2
+Bytes: EB

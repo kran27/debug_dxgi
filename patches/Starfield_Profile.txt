@@ -1,0 +1,15 @@
+Game: StarfieldProfile
+
+Patch: XGameRuntime Initialization
+Address: 0x4874904
+Bytes: EB
+
+Patch: credit menu function
+Address: 0x6A27D2F
+# "F %lu\0"
+Bytes: 46 20 25 6C 75 00
+
+Patch: fuel menu function
+Address: 0x6A27DB7
+# "558E %lu\0"
+Bytes: 35 35 38 45 20 25 6C 75 00

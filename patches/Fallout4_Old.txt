@@ -1,0 +1,6 @@
+Game: Fallout4Beta
+Version: 1.10.82.0
+
+Patch: TCD Crash
+Address: 0x2DF16C8
+Bytes: E9 97 03 00 00

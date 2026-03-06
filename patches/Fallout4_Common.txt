@@ -1,0 +1,5 @@
+Game: Fallout4Beta
+
+Patch: Empty Extra Keywords Hang
+Address: 0x242081
+Bytes: EB
