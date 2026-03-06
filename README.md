@@ -1,6 +1,8 @@
 # Kran's DebugDXGI
 
-dxgi shim dll to help debugging and patch crashes/other things in debug games
+dxgi (or dinput8) shim dll to help debugging and patch crashes/other things, mainly in debug versions of games
+
+comes with patches for a few games (/patches directory):
 
 | Game                   | Patch                                                            |
 |------------------------|------------------------------------------------------------------|
@@ -9,4 +11,4 @@ dxgi shim dll to help debugging and patch crashes/other things in debug games
 | Dishonored 2           | Prevents crash due to expired Havok license                      |
 | Immortals Fenyx Rising | Handles int3 exception to prevent Bloomberg exiting the game     |
 | Starfield              | Fixes add credits & fuel menu options, and popup when starting   |
-| BGE 20th Anniversary   | Cracks internal upc_r2 functions, normal emu wouldn't work       |
+| Hunter: The Reckoning  | Fixes various crashes experienced in the world                   |
