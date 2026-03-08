@@ -11,3 +11,15 @@ Bytes: EB
 Patch: Null NPC Bark
 Address: 0x54BCFE0
 Bytes: EB 1A 90
+
+Patch: Yellow Larry CTD (1)
+Address: 0x4EAEDF0
+Bytes: C3 90
+
+Patch: Yellow Larry CTD (2)
+Address: 0x4EAF000
+Bytes: C3 90
+
+Patch: Avoid Division By Zero
+Address: 0x4EBAC77
+Bytes: 83 49 78 01 F7 79 78 C3
